@@ -6,6 +6,7 @@
 
     .container .background-bottom {
         background: url(../images/bg-pattern-bottom-mobile.svg) no-repeat center / cover;
+        bottom: -600px;
     }
 
     .container .top {

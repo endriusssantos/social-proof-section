@@ -1,0 +1,62 @@
+@media (max-width: 425px) {
+
+    .container .background-top {
+        background: url(../images/bg-pattern-top-mobile.svg) no-repeat center / cover;
+    }
+
+    .container .background-bottom {
+        background: url(../images/bg-pattern-bottom-mobile.svg) no-repeat center / cover;
+    }
+
+    .container .top {
+        flex-direction: column;
+        gap: 30px;
+        margin: 500px 0 0 0;
+    }
+
+    .container .top .texts {
+        text-align: center;
+        align-items: center;
+        margin: 200px 0 0 0;
+    }
+
+    .container .top .texts .title {
+        font-size: 40px;
+    }
+
+    .container .top .texts .description {
+        width: 330px;
+    }
+
+    .container .top .stars {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .top .stars .rate-1,
+    .container .top .stars .rate-2,
+    .container .top .stars .rate-3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        gap: 10px;
+        padding: 20px 25px;
+        border-radius: 6px;
+        margin: 15px 0;
+    }
+
+    .container .bottom {
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 0 20px 0;
+    }
+
+    .container .bottom .card-1,
+    .container .bottom .card-2,
+    .container .bottom .card-3 {
+        margin: 10px 0;
+        width: 95%;
+    }
+}

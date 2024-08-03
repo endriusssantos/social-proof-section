@@ -1,0 +1,157 @@
+body {
+    font-family: "League Spartan", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .background-top {
+    background: url(../images/bg-pattern-top-desktop.svg) no-repeat center / cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 50vw;
+}
+
+.container .background-bottom {
+    background: url(../images/bg-pattern-bottom-desktop.svg) no-repeat center / cover;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    height: 50vh;
+    width: 100vw;
+}
+
+.container .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px 0 100px 0;
+}
+
+.container .top .texts {
+    color: hsl(300, 43%, 22%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .top .texts .title {
+    font-size: 50px;
+    font-weight: 700;
+    width: 350px;
+}
+
+.container .top .texts .description {
+    font-size: 18px;
+    width: 450px;
+    line-height: 25px;
+}
+
+.container .top .stars {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.container .top .stars .rate-1,
+.container .top .stars .rate-2,
+.container .top .stars .rate-3 {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    padding: 20px 25px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.container .top .stars .rate-2 {
+    margin-left: 40px;
+}
+
+.container .top .stars .rate-3 {
+    margin-left: 80px;
+}
+
+.container .top .stars .rate-1 .rating,
+.container .top .stars .rate-2 .rating,
+.container .top .stars .rate-3 .rating {
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+.container .bottom {
+    display: flex;
+    align-items: center;
+}
+
+.container .bottom .card-1,
+.container .bottom .card-2,
+.container .bottom .card-3 {
+    background-color: hsl(300, 43%, 22%);
+    display: flex;
+    width: 370px;
+    height: 220px;
+    border-radius: 8px;
+    margin: 0 25px 0 0;
+}
+
+.container .bottom .card-2 {
+    margin-top: 30px;
+}
+
+.container .bottom .card-3 {
+    margin-top: 60px;
+}
+
+.container .bottom .card-1 .content,
+.container .bottom .card-2 .content,
+.container .bottom .card-3 .content {
+    padding: 0 0 0 50px;
+}
+
+.container .bottom .card-1 .content .info,
+.container .bottom .card-2 .content .info,
+.container .bottom .card-3 .content .info {
+    display: flex;
+    align-items: center;
+    padding: 40px 0 15px 0;
+    gap: 15px;
+}
+
+.container .bottom .card-1 .content .info .avatar,
+.container .bottom .card-2 .content .info .avatar,
+.container .bottom .card-3 .content .info .avatar {
+    width: 35px;
+    border-radius: 100%;
+}
+
+.container .bottom .card-1 .content .info .nick .name,
+.container .bottom .card-2 .content .info .nick .name,
+.container .bottom .card-3 .content .info .nick .name {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    padding: 0 0 5px 0;
+}
+
+.container .bottom .card-1 .content .info .nick .verification,
+.container .bottom .card-2 .content .info .nick .verification,
+.container .bottom .card-3 .content .info .nick .verification {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.container .bottom .card-1 .content .review,
+.container .bottom .card-2 .content .review,
+.container .bottom .card-3 .content .review {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    width: 280px;
+    padding: 10px 0 0 0;
+    line-height: 20px;
+}
